@@ -1,0 +1,149 @@
+/* Definizione delle variabili CSS per i colori del tema */
+@import "tailwindcss";
+@import "tw-animate-css";
+@tailwind utilities;
+
+@custom-variant dark (&:is(.dark *));
+
+:root { --nav-color: #ffffff; } /* fallback bianco */
+
+/* assets/css/main.css – tail end */
+@layer utilities {
+  .padding-px {
+    @apply px-4 sm:px-8 lg:px-16 xl:px-48;
+  }
+  .padding-py {
+    @apply py-12 sm:py-16 lg:py-24 xl:py-28;
+  }
+}
+
+.text-megat {
+  /* @apply font-['Poppins'] text-[48px] font-bold leading-[72px]; */
+  @apply font-['DM_Sans'] text-6xl xl:text-9xl font-extrabold leading-[60px] xl:leading-32;
+}
+.text-xltitle {
+  /* @apply font-['Poppins'] text-[36px] font-bold leading-[54px]; */
+  @apply font-['DM_Sans'] text-5xl xl:text-8xl font-bold leading-14 xl:leading-28;
+}
+.text-title {
+  /* @apply font-['Poppins'] text-[36px] font-bold leading-[54px]; */
+  @apply font-['DM_Sans'] text-4xl xl:text-5xl font-bold leading-10 xl:leading-12;
+}
+.text-subt {
+  /* @apply font-['Poppins'] text-[24px] font-medium leading-[36px]; */
+  @apply font-['DM_Sans'] text-2xl xl:text-3xl font-semibold leading-loose xl:leading-9;
+}
+.text-desc {
+  /* @apply font-['Poppins'] text-[14px] font-normal leading-[21px]; */
+  @apply font-['DM_Sans'] text-xl xl:text-2xl font-normal leading-tight xl:leading-normal text-justify;
+}
+.text-btn {
+  /* @apply font-['Poppins'] text-[16px] font-semibold leading-[24px]; */
+  @apply font-['DM_Sans'] text-base xl:text-2xl font-semibold leading-normal xl:leading-8;
+}
+.text-footer {
+  @apply font-['DM_Sans'] text-xs font-normal leading-tight;
+}
+.btn-y {
+  @apply bg-buttonY text-textcolor-onlight cursor-pointer hover:opacity-75 rounded-full xl:rounded-2xl px-2.5 py-1 xl:p-2.5 drop-shadow-lg;
+}
+.btn-g {
+  @apply rounded-xl bg-buttonG cursor-pointer px-8 py-1.5 border-2 focus:border-amber-300;
+}
+.p-ethos {
+  @apply px-[15px] py-[50px] xl:px-0 xl:py-[100px];
+  &.project {
+    @apply px-[15px] py-[25px];
+  }
+}
+.px-ethos {
+  @apply px-[15px] xl:px-0;
+}
+.py-ethos {
+  @apply py-[50px];
+}
+.gap-y-ethos {
+  @apply gap-y-5 xl:gap-y-[30px];
+}
+
+div.subcard {
+  @apply py-[15px] flex flex-col gap-y-[5px];
+
+  div {
+    @apply flex flex-row justify-between;
+  }
+}
+
+.text-shadow-project {
+  @apply text-shadow-[0_5px_4px_rgb(0_0_0_/_90%)];
+}
+
+.bg-glass {
+  background: linear-gradient(
+    126deg,
+    rgba(255, 255, 255, 0.22) -0.04%,
+    rgba(117, 117, 117, 0.22) 99.96%
+  );
+  @apply backdrop-blur-xs;
+}
+
+.bg-sphere {
+  /* background: url("~/assets/images/spheres.png") no-repeat center;
+  background-size: cover; */
+  @apply bg-[url('~/assets/images/spheres.png')] xl:bg-none bg-no-repeat bg-center bg-cover;
+}
+
+.bg-project {
+  background: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(117, 117, 117, 0.22) 100%
+  );
+}
+
+/*Vedere https://tailwindcss.com/docs/theme per capircene*/
+@theme inline {
+  --color-background: var(--background);
+  --color-eth-gray: var(--background-gray);
+  --color-background-light: var(--background-light);
+  --color-background-card: var(--background-card);
+  --color-background-glass: var(--background-glass);
+  --color-buttonY: var(--buttonY);
+  --color-buttonG: var(--buttonG);
+  --color-textcolor: var(--textcolor);
+  --color-textcolor-onlight: var(--textcolor-onlight);
+  --font-display: "DM_Sans", sans-serif;
+  --ui-bg: var(--background);
+}
+
+/* ModalitÃ  light */
+:root {
+  --background: #ffffff;
+  --background-gray: #282828;
+  --background-light: #f0f0f0;
+  --background-card: #ffffff;
+  --buttonY: #ffd600;
+  --buttonG: #3fb27f;
+  --textcolor: #282828;
+  --textcolor-onlight: #282828;
+  white-space: pre-line;
+  --ui-bg: #ffffff;
+}
+
+/* ModalitÃ  dark (default) */
+.dark {
+  --background: #000000;
+  --background-gray: #282828;
+  --background-light: #f0f0f0;
+  --background-card: #ffffff;
+  --buttonY: #ffd600;
+  --buttonG: #3fb27f;
+  --textcolor: #ffffff;
+  --textcolor-onlight: #282828;
+  --ui-bg: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
