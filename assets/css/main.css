@@ -87,11 +87,6 @@ div.subcard {
   @apply backdrop-blur-xs;
 }
 
-.bg-sphere {
-  /* background: url("~/assets/images/spheres.png") no-repeat center;
-  background-size: cover; */
-  @apply bg-[url('~/assets/images/spheres.png')] xl:bg-none bg-no-repeat bg-center bg-cover;
-}
 
 .bg-project {
   background: #ffffff;
