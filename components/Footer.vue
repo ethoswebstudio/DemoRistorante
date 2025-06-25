@@ -4,8 +4,8 @@
     <section
       id="footer1"
       class="padding-px padding-py relative isolate text-white 
-      bg-[url('/img/footer_pizza_mob.png')] bg-cover bg-center
-      xl:bg-[url('/img/footer_pizza.png')] bg-no-repeat"
+      bg-[url('public/img/footer/footer_pizza_mob.png')] bg-cover bg-center
+      xl:bg-[url('public/img/footer/footer_pizza.png')] bg-no-repeat"
     >
 
       <div

@@ -11,7 +11,7 @@
     <!-- Logo -->
     <ULink to="/" aria-label="Home">
       <img
-        src="/img/logo_demo_restaurant.png"
+        src="public/img/navbar/logo_Demo_Restaurant.png"
         alt="Logo"
         class="w-16 h-16 md:w-20 md:h-14 xl:w-28 xl:h-28 transition-all duration-300"
       />
