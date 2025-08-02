@@ -36,7 +36,7 @@
         <ul class="flex flex-col gap-8 text-lg font-semibold tracking-wide">
           <li>
             <a
-              href="#Sezione3"
+              href="/menu"
               @click="$emit('close')"
               class="flex items-center justify-between group hover:text-amber-400"
             >
@@ -46,7 +46,7 @@
           </li>
           <li>
             <a
-              href="#Sezione4"
+              href="#ChiSiamo"
               @click="$emit('close')"
               class="flex items-center justify-between group hover:text-amber-400"
             >
@@ -56,7 +56,7 @@
           </li>
           <li>
             <a
-              href="#footer1"
+              href="#Footer"
               @click="$emit('close')"
               class="flex items-center justify-between group hover:text-amber-400"
             >

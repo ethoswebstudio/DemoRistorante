@@ -19,9 +19,9 @@
 
     <!-- NAV DESKTOP -->
     <ul class="hidden xl:flex gap-12 font-semibold text-subt">
-      <li><a href="#Sezione3" class="nav-link">Menu</a></li>
-      <li><a href="#Sezione4" class="nav-link">Chi&nbsp;Siamo</a></li>
-      <li><a href="#footer1" class="nav-link">Contatti</a></li>
+      <li><a href="/menu" class="nav-link">Menu</a></li>
+      <li><a href="#ChiSiamo" class="nav-link">Chi&nbsp;Siamo</a></li>
+      <li><a href="#Footer" class="nav-link">Contatti</a></li>
     </ul>
 
     <!-- BURGER MOBILE -->

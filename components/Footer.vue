@@ -2,7 +2,7 @@
   <footer>
     <!-- TOP SECTION -->
     <section
-      id="footer1"
+      id="Footer"
       class="padding-px padding-py relative isolate text-white 
       bg-[url('public/img/footer/footer_pizza_mob.png')] bg-cover bg-center
       xl:bg-[url('public/img/footer/footer_pizza.png')] bg-no-repeat"

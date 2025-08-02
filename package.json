@@ -20,7 +20,6 @@
     "@nuxt/image": "^1.10.0",
     "@nuxt/ui": "^3.1.3",
     "@nuxtjs/google-fonts": "^3.2.0",
-    "tailwindcss-textshadow": "^2.1.3",
     "tw-animate-css": "^1.3.4"
   }
 }

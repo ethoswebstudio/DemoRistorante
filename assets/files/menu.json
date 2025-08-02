@@ -1,0 +1,188 @@
+{
+    "pizze": [
+        {
+            "name": "MARGHERITA",
+            "ingredienti": "Pomodoro, Mozzarella, Basilico",
+            "prezzo": 6.5,
+            "allergeni": false
+        },
+        {
+            "name": "CAPRICCIOSA",
+            "ingredienti": "Pomodoro, Mozzarella, Prosciutto, Funghi, Carciofi",
+            "prezzo": 8.5,
+            "allergeni": true
+        },
+        {
+            "name": "QUATTRO FORMAGGI",
+            "ingredienti": "Gorgonzola, Mozzarella, Fontina, Parmigiano",
+            "prezzo": 8.5,
+            "allergeni": false
+        },
+        {
+            "name": "DIAVOLA",
+            "ingredienti": "Pomodoro, Mozzarella, Salame piccante, Peperoncino",
+            "prezzo": 7.5,
+            "allergeni": false
+        },
+        {
+            "name": "COTTO E FUNGHI",
+            "ingredienti": "Pomodoro, Mozzarella, Prosciutto, Funghi",
+            "prezzo": 8,
+            "allergeni": false
+        },
+        {
+            "name": "FRUTTI DI MARE",
+            "ingredienti": "Pomodoro, Mozzarella, Frutti di mare misti",
+            "prezzo": 12,
+            "allergeni": false
+        },
+        {
+            "name": "VEGETARIANA",
+            "ingredienti": "Pomodoro, Mozzarella, Peperoni, Melanzane, Zucchine, Pomodori freschi",
+            "prezzo": 8.5,
+            "allergeni": false
+        },
+        {
+            "name": "MARINARA",
+            "ingredienti": "Pomodoro, Aglio, Origano, Olio d'oliva",
+            "prezzo": 6,
+            "allergeni": false
+        },
+        {
+            "name": "QUATTRO STAGIONI",
+            "ingredienti": "Pomodoro, Mozzarella, Prosciutto, Funghi, Carciofi, Olive nere",
+            "prezzo": 8.5,
+            "allergeni": false
+        },
+        {
+            "name": "CARBONARA",
+            "ingredienti": "Pancetta, Uova, Pecorino, Pepe nero",
+            "prezzo": 10.5,
+            "allergeni": false
+        },
+        {
+            "name": "BIANCA",
+            "ingredienti": "Mozzarella, Ricotta, Parmigiano, Rosmarino",
+            "prezzo": 7.5,
+            "allergeni": false
+        },
+        {
+            "name": "PESTO",
+            "ingredienti": "Pesto alla genovese, Mozzarella, Pomodorini, Pinoli",
+            "prezzo": 8.5,
+            "allergeni": false
+        },
+        {
+            "name": "SICILIANA",
+            "ingredienti": "Pomodoro, Mozzarella, Melanzane, Olive nere, Pomodorini",
+            "prezzo": 9,
+            "allergeni": false
+        },
+        {
+            "name": "SALMONE",
+            "ingredienti": "Salmone affumicato, Mascarpone, Pomodorini, Prezzemolo",
+            "prezzo": 9.5,
+            "allergeni": false
+        },
+        {
+            "name": "NOCI E GORGONZOLA",
+            "ingredienti": "Gorgonzola, Mozzarella, Noci, Miele",
+            "prezzo": 10.5,
+            "allergeni": false
+        },
+        {
+            "name": "PATATE E ROSMARINO",
+            "ingredienti": "Patate, Rosmarino, Mozzarella, Olio d'oliva",
+            "prezzo": 9,
+            "allergeni": false
+        },
+        {
+            "name": "FUNGHI PORCINI",
+            "ingredienti": "Funghi porcini, Mozzarella, Pomodoro, Olio d'oliva",
+            "prezzo": 10,
+            "allergeni": false
+        },
+        {
+            "name": "TONNO E CIPOLLA",
+            "ingredienti": "Tonno, Cipolla, Olive nere, Pomodoro",
+            "prezzo": 8.5,
+            "allergeni": false
+        },
+        {
+            "name": "GAMBERETTI E RUCOLA",
+            "ingredienti": "Gamberetti, Rucola, Basilico, Olio d'oliva",
+            "prezzo": 9.5,
+            "allergeni": false
+        },
+        {
+            "name": "ANANAS",
+            "ingredienti": "Pomodoro, Mozzarella, Bresaola, Ananas, Sputo del Pizzaiolo",
+            "prezzo": 100,
+            "allergeni": true
+        }
+    ],
+    "stuzzicherie": [
+        {
+            "name": "PATATINE FRITTE",
+            "prezzo": 3,
+            "allergeni": false
+        },
+        {
+            "name": "CROCCHETTE DI PATATE",
+            "prezzo": 4,
+            "allergeni": false
+        },
+        {
+            "name": "OLIVE ALL'ASCOLANA",
+            "prezzo": 5,
+            "allergeni": false
+        },
+        {
+            "name": "ANELLI DI CIPOLLA",
+            "prezzo": 3,
+            "allergeni": false
+        },
+        {
+            "name": "PANZEROTTO FRITTO",
+            "prezzo": 5,
+            "allergeni": false
+        },
+        {
+            "name": "PANZEROTTO AL FORNO",
+            "prezzo": 5,
+            "allergeni": false
+        }
+    ],
+    "bibite": [
+        {
+            "name": "ACQUA 0,5CL",
+            "prezzo": 1.5,
+            "allergeni": false
+        },
+        {
+            "name": "ACQUA 1L",
+            "prezzo": 2.5,
+            "allergeni": false
+        },
+        {
+            "name": "BIBITE IN LATTINA 33CL",
+            "prezzo": 4,
+            "allergeni": false
+        },
+        {
+            "name": "BIRRA 33CL",
+            "prezzo": 3.5,
+            "allergeni": false
+        },
+        {
+            "name": "BIRRA 66CL",
+            "prezzo": 6,
+            "allergeni": false
+        },
+        {
+            "name": "VINO 1L",
+            "prezzo": 8,
+            "allergeni": false
+        }
+    ]
+}
