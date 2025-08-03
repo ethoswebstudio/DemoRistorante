@@ -5,15 +5,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
 
   // 1.  Moduli senza duplicati
-  modules: [
-    '@nuxt/ui',
-    '@nuxt/icon',
-    '@nuxt/image',          // ← lasciato una sola volta
-    [
-      '@nuxtjs/google-fonts',
-      { families: { 'DM Sans': '100..900' }, display: 'swap' }
-    ]
-  ],
+  modules: ['@nuxt/ui', '@nuxt/icon', // ← lasciato una sola volta
+  '@nuxt/image', [
+    '@nuxtjs/google-fonts',
+    { families: { 'DM Sans': '100..900' }, display: 'swap' }
+  ], '@nuxthub/core'],
 
   // 2.  CSS: un solo entry-point (raggruppa theme e utility in main.css)
   css: ['@/assets/css/theme.css', '@/assets/css/main.css'],
